@@ -70,6 +70,19 @@ const OrderOnlineComponent = ({ removeMargin }) => {
           </Button>
         </a>
       </Link>
+      <Link>
+        <a
+          target="_blank"
+          style={{ textDecoration: "none" }}
+          href={
+            "https://www.doordash.com/store/samudhra-franklin-township-776048/"
+          }
+        >
+          <Button>
+            <Buttontext>Delivery</Buttontext>
+          </Button>
+        </a>
+      </Link>
     </div>
   );
 };

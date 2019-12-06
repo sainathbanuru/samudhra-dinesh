@@ -25,34 +25,34 @@ import { Helmet } from "react-helmet";
 import PlainParallaxMobile from "../components/mobile/plainParallaxMobile";
 import styled from "styled-components";
 
-// const PopupComponent = () => {
-//   return (
-//     <Popup
-//       modal
-//       open
-//       contentStyle={{
-//         background: "transparent",
-//         width: "auto",
-//         padding: 0,
-//         borderWidth: 0
-//       }}
-//       overlayStyle={{
-//         backgroundColor: "rgba(0,0,0,0.8)"
-//       }}
-//     >
-//       {close => (
-//         <div className="modal">
-//           <div className="content">
-//             <img
-//               src={"/static/images/popup.jpg"}
-//               style={{ width: 450, height: "auto" }}
-//             />
-//           </div>
-//         </div>
-//       )}
-//     </Popup>
-//   );
-// };
+const PopupComponent = () => {
+  return (
+    <Popup
+      modal
+      open
+      contentStyle={{
+        background: "transparent",
+        width: "auto",
+        padding: 0,
+        borderWidth: 0
+      }}
+      overlayStyle={{
+        backgroundColor: "rgba(0,0,0,0.8)"
+      }}
+    >
+      {close => (
+        <div className="modal">
+          <div className="content">
+            <img
+              src={"/static/images/popup.jpg"}
+              style={{ width: 450, height: "auto" }}
+            />
+          </div>
+        </div>
+      )}
+    </Popup>
+  );
+};
 
 const GridContainer = styled.div`
   height: 80vh;

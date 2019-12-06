@@ -255,6 +255,27 @@ class HomeIntro extends React.Component {
               />
               {/* <button onClick={this.muteVideo}>unMute</button> */}
               {/* <button onClick={this.playVideo}>Play</button> */}
+            </div>{" "}
+            <div
+              style={{
+                position: "fixed",
+                bottom: 0,
+                zIndex: 10000
+              }}
+            >
+              <img
+                src={`static/images/${icon}.png`}
+                style={{
+                  width: 32,
+                  height: 32,
+                  zIndex: 10000,
+                  pointer: "cursor"
+                }}
+                onClick={this.muteVideo}
+                alt={"Mute"}
+              />
+              {/* <button onClick={this.muteVideo}>unMute</button> */}
+              {/* <button onClick={this.playVideo}>Play</button> */}
             </div>
           </div>
         </div>
